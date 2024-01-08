@@ -1,12 +1,7 @@
-/* common shared style */
-body{
-    font-family: 'Merriweather', serif;
-}
-/* nav related style */
-
 .nav-title{
     color: #FFF;
     text-align: center;
+    font-family: Merriweather;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -16,12 +11,12 @@ body{
 .nav-main{
     color: #FFF;
     text-align: center;
+    font-family: Merriweather;
     font-size: 80px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
     margin-bottom: -20px;
-    
 }
 .about{
     padding: 130px;
@@ -407,4 +402,72 @@ body{
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+}
+.footer-container{
+    background-color: #070211;
+    width: 1500px;
+    height: 750px;
+}
+.list-style{
+    list-style: none;
+    margin-right: 100px;
+    margin-top: 200px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer1{
+    margin-top: 700px;
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.under-footer11{
+    margin-left: 100px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer2{
+    text-align: center;
+    margin-top: 150px;
+}
+.footer2 a{
+    margin: 15px;
+}
+.footer3{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.under-footer31{
+    margin-left: 100px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.under-footer32{
+    margin-right: 100px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.under-footer32 a{
+    text-decoration: none;
+    color: #FFF;
 }
